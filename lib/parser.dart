@@ -3,4 +3,4 @@
 /// More dartdocs go here.
 library;
 
-export 'src/parsers/parser.dart' show Parser, ParserBuilder, ParserFactories, ParserMatches;
+export 'src/parser/parser.dart' show Parser, ParserBuilder, ParserFactories, ParserMatches;

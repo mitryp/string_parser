@@ -1,4 +1,4 @@
-part of 'parsers/parser.dart';
+part of 'parser.dart';
 
 extension ParserMatches<T extends Object> on Parser<T> {
   bool matchesAsPrefix(String input) => parse(input).$1 != null;

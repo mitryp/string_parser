@@ -2,7 +2,7 @@ import '../errors.dart';
 import '../typedefs.dart';
 import '../utils/result_predicates.dart';
 
-part '../extensions.dart';
+part 'extensions.dart';
 part 'builder.dart';
 part 'parse_driver.dart';
 part 'parser_impl.dart';
@@ -11,7 +11,7 @@ abstract class Parser<T extends Object> {
   /// A key which is used by [ParseDriver] to extract the final result of parsing from the context.
   static const String resultKey = '__res';
 
-  /// Returns a [ParserBuilder] which allows to chain multiple parsers and share a single context
+  /// Returns a [ParserBuilder] which allows to chain multiple parser and share a single context
   /// between them, allowing to parse complex objects.
   ///
   /// For more information about the [ParseContext], refer to its docs and the docs of
